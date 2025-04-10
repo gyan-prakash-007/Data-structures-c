@@ -86,6 +86,7 @@ int main(){
     printf("before pushing , full : %d\n", isFull(sp));
     printf("before pushing , empty : %d\n", isEmpty(sp));
 
+    // Pushing elements into the stack
     push(sp , 1102);
     push(sp , 5098);
     push(sp , 56345);
