@@ -10,7 +10,7 @@ struct stack
     int * arr ;
 };
 
-// function to check if the stack is empty or not 
+// function to check if the stack is empty or not.
 int isEmpty(struct stack* ptr){
     if(ptr->top== -1){
         return 1;
