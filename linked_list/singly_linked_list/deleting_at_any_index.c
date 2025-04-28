@@ -30,6 +30,7 @@ struct node* deleteIndex(struct node*head , int index ){
    
     
 }
+//printing elements of the linked list 
 void print(struct node* head){
     while(head!=NULL){
         printf("%d\t",head->data);
