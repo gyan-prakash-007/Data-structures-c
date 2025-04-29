@@ -32,6 +32,7 @@ struct node* deletelast(struct node*head ){
    
     
 }
+// printing the elements of linked list 
 void print(struct node* head){
     while(head!=NULL){
         printf("%d\t",head->data);
