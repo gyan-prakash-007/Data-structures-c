@@ -78,10 +78,11 @@ void push(struct stack* ptr, int val){
     }
 
 int main(){
-    struct stack *sp = (struct stack*) malloc(sizeof(struct stack));
+    struct stack *sp = (struct stack*) malloc(sizeof(struct stack));// dynamically allocating memory for stack 
     sp-> size = 10;
     sp-> top = -1 ;
     sp-> arr = (int*)malloc(sp->size*sizeof(int));
+// dynamically allocating memory for array 
 
     printf("before pushing , full : %d\n", isFull(sp));
     printf("before pushing , empty : %d\n", isEmpty(sp));
