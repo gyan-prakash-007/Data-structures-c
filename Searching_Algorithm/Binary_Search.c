@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 
-int linearSearch(int arr[], int size , int element){
+int binarySearch(int arr[], int size , int element){
     int low = 0 , mid ,high = size - 1;
 
     while (low <= high )
@@ -31,7 +31,7 @@ int main(){
     printf("enter the number ");
     scanf("%d",&n);
 
-    int searchIndex = linearSearch(arr, size , n);
+    int searchIndex = binarySearch(arr, size , n);
     
     if(searchIndex != -1){
     printf(" the element %d was found at index %d", n , searchIndex);
