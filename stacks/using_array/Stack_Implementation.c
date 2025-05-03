@@ -5,7 +5,7 @@
 
 struct stack
 {
-    int size ;
+    int size ;// size of stack
     int top ;
     int * arr ;
 };
